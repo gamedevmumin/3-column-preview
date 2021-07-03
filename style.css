@@ -1,0 +1,13 @@
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark--cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --transparen-white: hsla(0, 0%, 100%, 0.75); /* paragraphs */
+  --very-light-gray: hsl(0, 0%, 95%); /* background, headings, buttons */
+  --ff-primary: "Big Shoulders Display", cursive;
+  --ff-secondary: "Lexend Deca", sans-serif;
+}
+
+html {
+  font-size: 0.9375rem;
+}
