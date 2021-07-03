@@ -39,7 +39,7 @@ body {
 
 .container {
   height: 100%;
-  max-width: 48%;
+  /* max-width: 48%; */
   font-family: var(--ff-primary);
   color: var(--transparen-white);
 }
@@ -63,10 +63,6 @@ p {
 @media (max-width: 756px) {
   p {
     margin-bottom: 3.5rem;
-  }
-
-  .container {
-    max-width: 100%;
   }
 }
 
@@ -115,6 +111,7 @@ p {
   padding: 4rem 0.5rem;
   width: 100%;
   min-width: 225px;
+  max-width: 300px;
   display: flex;
   flex-direction: column;
 }
@@ -134,9 +131,13 @@ p {
   border-bottom-right-radius: 2%;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 756px) {
   .columns {
     flex-direction: column;
+  }
+
+  .column {
+    max-width: 100%;
   }
 
   .column:first-of-type {
