@@ -72,23 +72,39 @@ p {
 
 .button {
   margin-bottom: 2rem;
-  background-color: hsl(0, 0%, 95%);
+  background-color: var(--transparen-white);
   font-size: 1.1rem;
   padding: 1em 2em;
   border-radius: 3em;
   text-decoration: none;
+  border: 3px solid var(--transparen-white);
 }
 
 .button-orange {
   color: var(--bright-orange);
 }
 
+.button-orange:hover {
+  background-color: var(--bright-orange);
+  color: var(--transparen-white);
+}
+
 .button-green {
   color: var(--dark--cyan);
 }
 
+.button-green:hover {
+  background-color: var(--dark--cyan);
+  color: var(--transparen-white);
+}
+
 .button-darkgreen {
   color: var(--very-dark-cyan);
+}
+
+.button-darkgreen:hover {
+  background-color: var(--very-dark--cyan);
+  color: var(--transparen-white);
 }
 
 .columns {
